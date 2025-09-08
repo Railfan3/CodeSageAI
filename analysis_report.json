@@ -1,0 +1,83 @@
+[
+    {
+        "file": "..\\test_code.py",
+        "score": 0.0,
+        "issues": [
+            {
+                "type": "convention",
+                "module": "test_code",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "endLine": null,
+                "endColumn": null,
+                "path": "C:\\Users\\Admin\\OneDrive\\Desktop\\projects elevate\\test_code.py",
+                "symbol": "missing-module-docstring",
+                "message": "Missing module docstring",
+                "message-id": "C0114"
+            },
+            {
+                "type": "convention",
+                "module": "test_code",
+                "obj": "bad_func",
+                "line": 3,
+                "column": 0,
+                "endLine": 3,
+                "endColumn": 12,
+                "path": "C:\\Users\\Admin\\OneDrive\\Desktop\\projects elevate\\test_code.py",
+                "symbol": "missing-function-docstring",
+                "message": "Missing function or method docstring",
+                "message-id": "C0116"
+            },
+            {
+                "type": "warning",
+                "module": "test_code",
+                "obj": "",
+                "line": 8,
+                "column": 0,
+                "endLine": 8,
+                "endColumn": 59,
+                "path": "C:\\Users\\Admin\\OneDrive\\Desktop\\projects elevate\\test_code.py",
+                "symbol": "pointless-string-statement",
+                "message": "String statement has no effect",
+                "message-id": "W0105"
+            },
+            {
+                "type": "warning",
+                "module": "test_code",
+                "obj": "",
+                "line": 1,
+                "column": 0,
+                "endLine": 1,
+                "endColumn": 9,
+                "path": "C:\\Users\\Admin\\OneDrive\\Desktop\\projects elevate\\test_code.py",
+                "symbol": "unused-import",
+                "message": "Unused import os",
+                "message-id": "W0611"
+            }
+        ],
+        "complexity": [
+            [
+                "bad_func",
+                3,
+                0,
+                5,
+                false,
+                null,
+                [],
+                2
+            ],
+            [
+                "greet",
+                10,
+                0,
+                12,
+                false,
+                null,
+                [],
+                1
+            ]
+        ],
+        "maintainability": 73.041182281749
+    }
+]

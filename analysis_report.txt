@@ -1,0 +1,11 @@
+AI Code Reviewer Report
+==================================================
+File: ..\test_code.py
+Score: 7.78/10
+Maintainability Index: 73.04
+
+Issues:
+
+Complexity Report:
+ - Function `bad_func` has complexity 2
+ - Function `greet` has complexity 1
